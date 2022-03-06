@@ -1,0 +1,67 @@
+                                              TASK 1 
+#include <iostream>
+int main()
+{
+    system("chcp 65001");
+    int a,b;
+    char oper;
+    std::cout << "Введите последоватьельно первое, второе  числа и операцию(*/-/+/:)"<<std:: endl;
+    std::cin >> a >> b >> oper;
+    switch(oper)
+    {
+        case '*' :
+            std:: cout << a*b <<std::endl;
+            break;
+        case '+' :
+            std:: cout << a+b <<std::endl;
+            break;
+        case '-' :
+            std:: cout <<"Результат операции"<< a+b <<std:: endl;
+        case ':' :
+            std:: cout <<"Результат операции"<< a/b <<std:: endl;
+    }
+
+}
+
+
+                                               TASK 2 
+#include <iostream>
+#include <unistd.h>
+int main()
+{
+    int n,c;
+    std :: cin >> n;
+    while (c<n+1)
+    {
+        c++;
+        n--;
+        std:: cout << n << std:: endl;
+        sleep(1);
+    }
+
+}
+                                               TASK 3
+#include <iostream>
+int main()
+{
+    system("chcp 65001");
+    using namespace std;
+    int chislo,n;
+    cout <<" Введите число"<< endl;
+    cin >> chislo;
+    n=chislo%10;
+    switch(n){
+        case 1:
+            cout<< " яблоко " << endl;
+            break;
+        case 4:
+            cout<< " яблоко " << endl;
+            break;
+        default:
+            cout <<" яблок "<< endl;
+            break;
+    }
+
+
+                                               
+                                               
